@@ -26,49 +26,66 @@
     line-height: 5px;
 }
 #testsuitegrid{
-    margin-right: 5px;
-    margin-top: -15px;
+    margin-right: 2px;
+    margin-top: -35px;
     visibility: hidden;
-    width: 1020px;
-    height: 500px;
+    width: 1672px;
+    height: 850px;
+    z-index: 0;
 }
 #testcasegrid{
-    width: 975px;
-    height: 400px;
+    position: relative;
+    
+    width: 1300px;
+    height: 600px;
+    z-index: 0;
 }
 
 #addTestCaseBttn{
+    position: relative;
     width: 500px;
-    margin-top: 190px;
+    margin-top: 110px;
 }
 #deleteTestCaseBttn{
+    position: relative;
     width: 500px;
     margin-top: 210px;
     margin-right: -239px;
 }
 #runTestCaseBttn{
+    position: relative;
     width: 500px;
-    margin-top: 230px;
+    margin-top: 330px;
     margin-right: -240px;
 }
 
 #testsuitelabel{
+    position: relative;
     visibility: hidden;
-    margin-right: 830px;
-    margin-top: -30px;
-    font-size: smaller;
+    margin-right: 1470px;
+    margin-top: -23px;
+    font-size: medium;
+    z-index: 10;
 }
 #runTestSuiteBttn{
+    position: relative;
     width: 600px;
-    margin-right: 50px;
-    margin-left: 80px;
+    margin-right: 300px;
+    margin-left: 130px;
+    margin-bottom: -250px;
 }
 #runProjectBttn{
+    position: relative;
     width: 600px;
+    
     margin-right: 50px;
+    margin-bottom: -250px;
 }
 #deleteProjectBttn{
+    position: relative;
     width: 600px;
+    margin-left: 210px;
+    margin-bottom: -250px;
 }
 #testsuitegridbttns{
     margin-top: 430px;
